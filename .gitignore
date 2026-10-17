@@ -1,0 +1,23 @@
+# Never commit your key or local env files.
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local demo artefacts (your recorded clips and generated audio)
+fallback/*.wav
+*.commentary.wav
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
